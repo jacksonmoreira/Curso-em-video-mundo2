@@ -1,7 +1,7 @@
 # Exercício 037
 print('-' * 15)
 print('''Digite um número inteiro qualquer e
-logo em seguida  digite: 1 para transformar em bínario,
+logo em seguida  digite: 1 para transformar em binário,
 2 para transformar em octal e 3 para trans-
 formar em hexadecimal.''')
 print('-' * 15)
