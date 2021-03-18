@@ -1,4 +1,9 @@
 # Exercício 040
+import os, time
+os.system('clear')
+print('=-=' * 30)
+print('     AQUELE CLÁSSICO DA MÉDIA     ')
+print('=-=' * 30)
 print('-' * 15)
 print('''Média abaixo de 5.0: REPROVADO!
 Média entre 5.0 e 6.9: RECUPERAÇÃO!
@@ -14,3 +19,6 @@ elif média > 5 and média < 6.9:
     print('O aluno está em RECUPERAÇÃO!')
 elif média < 4.9:
     print('O aluno está REPROVADO!')
+time.sleep(1)
+input('Aperte enter para encerrar...')
+os.system('clear')
