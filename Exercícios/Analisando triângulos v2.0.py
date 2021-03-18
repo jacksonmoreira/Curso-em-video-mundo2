@@ -1,9 +1,9 @@
 # Exercíco 042
 import os, time
 os.system('clear')
-print('=-=' * 30)
-print('     ANALISANDO TRIÂNGULOS v2.0     ')
-print('=-=' * 30)
+print('#' * 38)
+print('##### ANALISANDO TRIÂNGULOS v2.0 #####')
+print('#' * 38)
 print('''Digite o tamanho de três segmentos de reta
 e eu informarei se é possível formar um triângulo e
 também se ele é escaleno, isósceles e equilátero.''')
