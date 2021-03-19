@@ -12,3 +12,4 @@ for c in range(10, -1, -1):
 print('BUM, BUM POW!!!')
 input('Pressione enter para encerrar...')
 os.system('clear')
+\
