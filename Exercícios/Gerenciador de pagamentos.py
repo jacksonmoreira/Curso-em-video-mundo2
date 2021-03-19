@@ -4,10 +4,10 @@ os.system('clear')
 print('#' * 37)
 print('{:#^37}'.format(' Gerenciador de pagamentos '))
 print('#' * 37)
-print('''À vista dinheiro/cheque: 10% de desconto.
-À vista cartão: 5% de desconto.
-Em até 2x no cartão: preço normal.
-3x ou mais no cartão: 20% de juros.''')
+print('À vista dinheiro/cheque: 10% de desconto.')
+print('À vista cartão: 5% de desconto.')
+print('Em até 2x no cartão: preço normal.')
+print('3x ou mais no cartão: 20% de juros.')
 print('-' * 4)
 valor = float(input('Valor a ser pago: R$'))
 cartaovista = valor - (valor * 5 / 100)
@@ -37,8 +37,10 @@ elif p0 == 4:
     partresvezes = valor / parcela
     partresvezes1 = tresvezcartao + partresvezes
     p6 = tresvezcartao / parcela
-    print('Sua compra será parcelada em 10x de R${:.2f} COM JUROS!!'.format(p6))
+    print('Sua compra será parcelada em {}x de R${:.2f}!!'.format(parcela, p6))
     print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(valor, tresvezcartao))
+else:
+    print('Opção inválida!')
 time.sleep(1)
 print('-' * 1)
 input('Aperte enter para encerrar!')
