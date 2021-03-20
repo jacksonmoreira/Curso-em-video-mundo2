@@ -9,7 +9,7 @@ print('-' * 1)
 input('Aperte enter para iniciar... ')
 for c in range(1, 11):
     time.sleep(0.5)
-    print('{} x {} = {}'.format(num, c, num*c))
+    print('{} x {:2} = {}'.format(num, c, num*c))
 print('-' * 1)
 input('Aperte enter para encerrar... ')
 os.system('clear')
