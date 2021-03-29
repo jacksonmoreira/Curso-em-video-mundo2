@@ -17,12 +17,12 @@ hexadecimal = hex(número)
 print('O número digitado foi {}!'.format(número))
 if conversão == 1:
     print('O número digitado transformado em binário ficará:')
-    print('{}.'.format(binário)[2:])
+    print('{}'.format(binário)[2:])
 elif conversão == 2:
     print('O número digitado transformado em binário octal ficará:')
-    print('{}.'.format(octal)[2:])
+    print('{}'.format(octal)[2:])
 elif conversão == 3:
     print('O número digitado transformado em hexadecimal ficará:')
-    print('{}.'.format(hexadecimal)[2:])
+    print('{}'.format(hexadecimal)[2:])
 else:
     print('Opção inexistente!')

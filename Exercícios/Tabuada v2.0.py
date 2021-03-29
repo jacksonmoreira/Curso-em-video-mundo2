@@ -1,15 +1,7 @@
 # Exercício 049
-import os, time
-os.system('clear')
-print('#' * 30)
-print(' Tabuada v2.0 ')
-print('#' * 30)
-num = int(input('Digite um número para ver sua tabuada: '))
-print('-' * 1)
-input('Aperte enter para iniciar... ')
-for c in range(1, 11):
-    time.sleep(0.5)
-    print('{} x {:2} = {}'.format(num, c, num*c))
-print('-' * 1)
-input('Aperte enter para encerrar... ')
-os.system('clear')
+print('{:#^30}'.format(' Multiplication Table v2.0 '))
+print('''Insert a number
+to the multiplication table!''')
+num = int(input('Insert a integer: '))
+for c in range(1, 9):
+    print('{} x {} = {}'.format(num, c, num*c))
